@@ -60,12 +60,7 @@ public class Registration implements Serializable {
 					obj.writeObject(userDetl.toString());
 					
 					//obj.writeObject(userPassword);
-					
-					
 				
-				
-				
-
 				obj.close();
 				fil.close();
 				

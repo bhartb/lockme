@@ -102,7 +102,6 @@ void sucessSiteCredential() throws IOException {
 			}
 			
 			
-			
 		}else {
 			System.out.println("Username or email or password can't be empty. Please do again Registarion for Site");
 			saveSiteCred();

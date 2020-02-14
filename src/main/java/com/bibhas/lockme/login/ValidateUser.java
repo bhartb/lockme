@@ -44,9 +44,7 @@ public class ValidateUser {
 		 usrPasswrd=usrDetails.next();
 		 
 		 
-		
-			
-				
+
 				 fis = new FileInputStream(new File("database.txt"));
 				
 				try {
@@ -57,11 +55,12 @@ public class ValidateUser {
 		            ObjectInputStream ois = new ObjectInputStream(fis);
 		            
 		            if(usrName.equals((results.add(ois.readObject().toString())))) {
+		            	
 		            	 System.out.println("**********Welcome to the Login page**********");
 		            	SaveSiteCredential sav=new SaveSiteCredential();
 		            	sav.saveSiteCred();
 		            }
-		           
+		           System.out.println((results.add(ois.readObject().toString())));
 	            	
 		        }
 			}catch (EOFException ignored) {

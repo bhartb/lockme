@@ -2,7 +2,7 @@ package com.bibhas.lockme.model;
 
 public class UserCredential {
 	
-	String siteName;
+    String siteName;
 	String userName;
 	String userPassword;
 	public String getSiteName() {

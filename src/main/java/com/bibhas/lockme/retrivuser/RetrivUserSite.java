@@ -17,9 +17,5 @@ public class RetrivUserSite{
 	       userMap.put(user, userInformationArray);
 	       Collection<String> coll=userMap.keySet();
 
-	       
-	        
-	        
-		
 	}
 }
