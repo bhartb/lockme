@@ -54,7 +54,9 @@ public class ValidateUser {
 				while (true) {
 		            ObjectInputStream ois = new ObjectInputStream(fis);
 		            
-		            if(usrName.equals((results.add(ois.readObject().toString())))) {
+		             results=(List<Object>)ois.readObject();
+		            
+		            if(results.toString().equals(usrName)); {
 		            	
 		            	 System.out.println("**********Welcome to the Login page**********");
 		            	SaveSiteCredential sav=new SaveSiteCredential();
